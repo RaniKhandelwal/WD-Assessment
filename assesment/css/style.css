@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.laptop{
+    border: 2px solid;
+    background: url(../premium_photo-1661414488218-abfc3b1a3bbe.jpeg);
+  height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.blur{
+    border: 2px solid;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+}
+.dream{
+    border: 2px solid #fff;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    margin: 20px auto;  
+    position: relative;
+    margin-bottom: 70px;
+    color: white;
+}
+.dream-line{
+border:2px solid #fff;
+position: absolute;
+top:19px;
+left: 44px;
+width:100px;
+height:50px;
+}
+.intro{
+    width: 300px;
+    height: fit-content;
+    margin-top:150px;
+    margin-right: 20px;
+    background: rgb(234, 226, 226,0.5);
+    padding: 20px;
+}
+.icons i{
+    border:2px solid;
+    padding: 5px;
+    margin-top:250px;
+    color: white;
+}
+.list li{
+    padding: 4px;
+}
+.list ul li a{
+text-decoration: none;
+color:white;
+}
+.copy{
+    color: white;
+    padding-top: 5px;
+}
+.intro h4{
+    color: rgb(3, 111, 111);
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-sect{
+    height: 1000px;
+    width: 193px;
+    background: rgb(112, 111, 111);
+}
+.section-container{
+    width: 1062px;
+}
+.right-sect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+.cards{
+    padding-top:30px;
+    width: 200px;
+    color: rgb(39, 167, 247);
+}
+.ourwork{
+    border: 2px solid gray;
+    margin-top: 20px;
+
+}
+.ourwork p{
+    padding:20px 0;
+    padding-left:300px;
+    color: rgb(63, 162, 239);
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+}
+.photo-card{
+    width: 100px;
+
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    gap: 10px;
+}
+.logo-cards{
+    width: 200px;
+    height: 100px;
+}
+.text{
+    width: 500px;
+    padding: 20px 0;
+    padding-left: 60px;
+    color:rgb(49, 172, 244);
+}
+.footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 400px;
+    padding: 50px;
+}
+.para{
+    width: 300px;
+    border: 2px solid gray;
+    padding: 10px;
+
+}
+.form input{
+    display: block;
+    padding: 5px;
+    border: transparent;
+    border-bottom: 1px solid gray;
+}
+button{
+    margin: 5px;
+    margin-left: 150px;
+}
